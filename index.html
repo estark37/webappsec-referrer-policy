@@ -63,10 +63,15 @@
         code.highlight { padding: .1em; border-radius: .3em; }
         pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em 0; overflow: auto; border-radius: 0; }
         </style>
+ <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/W3C-WD"><!--[if lt IE 9]><script src='https://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
+ <script src="//www.w3.org/scripts/TR/2016/fixup.js"></script>
  </head>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="http://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"> </a> </p>
+   <p>
+      <a href="http://www.w3.org/"><img width="72" height="48" src="https://www.w3.org/Icons/w3c_home" alt="W3C"></a>
+  </p>
    <h1 class="p-name no-ref" id="title">Referrer Policy</h1>
    <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">W3C Working Draft, <time class="dt-updated" datetime="2016-05-28">28 May 2016</time></span></h2>
    <div data-fill-with="spec-metadata">
@@ -126,9 +131,10 @@
    <p></p>
   </div>
   <div data-fill-with="at-risk"></div>
+  <nav id="toc">
   <h2 class="no-num no-toc no-ref heading settled" id="contents"><span class="content">Table of Contents</span></h2>
   <div data-fill-with="table-of-contents" role="navigation">
-   <ul class="toc" role="directory">
+   <ol class="toc" role="directory">
     <li>
      <a href="#intro"><span class="secno">1</span> <span class="content">Introduction</span></a>
      <ul class="toc">
@@ -208,8 +214,9 @@
       <li><a href="#informative"><span class="secno"></span> <span class="content">Informative References</span></a>
      </ul>
     <li><a href="#issues-index"><span class="secno"></span> <span class="content">Issues Index</span></a>
-   </ul>
+   </ol>
   </div>
+  </nav>
   <main>
    <section>
     <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#intro"></a></h2>
@@ -787,5 +794,6 @@
   img elements, HTML should set the request’s associated referrer policy
   before fetching.<a href="#issue-cb412d11"> ↵ </a></div>
   </div>
+ <p role="navigation" id="back-to-top"><a href="#toc"><abbr title="Back to top">↑</abbr></a></p>
  </body>
 </html>
